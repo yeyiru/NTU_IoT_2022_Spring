@@ -1,7 +1,8 @@
 ---
 - name: Reset
   hosts: all
- 
+  gather_facts: False
+
   tasks:
  
   - name: Reset
