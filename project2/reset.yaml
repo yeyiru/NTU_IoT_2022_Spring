@@ -1,0 +1,9 @@
+---
+- name: Reset
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Reset
+    shell: echo "Reset Software!"
+           sudo reboot
